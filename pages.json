@@ -1,0 +1,148 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "天天双皮奶，快乐每一天"//设置页面标题文字
+			}
+		},
+		{
+			"path": "pages/order/order-list",
+			"style": {
+				"navigationBarTitleText": "订单记录"
+			}
+		},
+		{
+			"path": "pages/me/index",
+			"style": {
+				"navigationBarTitleText": "我的页面"
+			}
+		},
+		{
+			"path": "pages/me/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+
+		{
+			"path": "pages/me/add-tenants",
+			"style": {
+				"navigationBarTitleText": "注册页面"
+			}
+		},
+		{
+			"path": "pages/me/personal",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/me/problem",
+			"style": {
+				"navigationBarTitleText": "问题反馈"
+			}
+		},
+		{
+			"path": "pages/store/index",
+			"style": {
+				"navigationBarTitleText": "点餐啦"//设置页面标题文字
+
+			}
+		},
+		{
+			"path": "pages/store/pay",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+
+		{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "",//设置页面标题文字
+				"enablePullDownRefresh": true, //开启下拉刷新事件
+				"app-plus" : {  
+					"titleNView" : {  
+						// 导航栏样式。"default"-默认样式；"transparent"-滚动透明渐变；"float"-悬浮导航栏。
+						"type": "float",
+						"searchInput":{
+							"align": "left",
+							"placeholder": "搜索",
+							// "placeholderColor":"#007AFF",
+							"borderRadius":"20px",
+							"backgroundColor": "#fff"
+						}
+					}  
+				}  
+			}
+		},
+		{
+			"path" : "pages/index/denglu/denglu",
+			"style" : 
+			{
+				"navigationBarTitleText" : "登录页面",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/order/order-look/order-look",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单详情",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/index/guangli/guangli",
+			"style" : 
+			{
+				"navigationBarTitleText" : "管理界面",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/index/guangliorderlist/guangliorderlist",
+			"style" : 
+			{
+				"navigationBarTitleText" : "管理表单",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"tabBar": {
+	  "color": "#7A7E83",
+	  "selectedColor": "#007AFF",
+	  "borderStyle": "black",
+	  "backgroundColor": "#ffffff",
+	  "list": [
+	    {
+	      "pagePath": "pages/index/index",
+	      "iconPath": "/static/冷饮.png",
+	      "selectedIconPath": "/static/冷饮.png",
+	      "text": "首页"
+	    },
+		{
+		  "pagePath": "pages/order/order-list",
+		  "iconPath": "/static/热饮.png",
+		  "selectedIconPath": "/static/热饮.png",
+		  "text": "订单"
+		 },
+	    {
+	      "pagePath": "pages/me/index",
+	      "iconPath": "/static/甜品.png",
+	      "selectedIconPath": "/static/甜品.png",
+		  "text": "我的"
+	     }
+	  ]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFC0CB"
+	}
+
+}

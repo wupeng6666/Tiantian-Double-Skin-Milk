@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order-list",
+    "pages/me/index",
+    "pages/me/about",
+    "pages/me/add-rider",
+    "pages/me/add-tenants",
+    "pages/me/collection",
+    "pages/me/personal",
+    "pages/me/problem",
+    "pages/store/index",
+    "pages/store/pay",
+    "pages/store/address",
+    "pages/index/search",
+    "pages/index/denglu/denglu"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/冷饮 (1).png",
+        "selectedIconPath": "/static/冷饮.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/order/order-list",
+        "iconPath": "/static/热饮 (1).png",
+        "selectedIconPath": "/static/热饮.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "iconPath": "/static/甜品 (1).png",
+        "selectedIconPath": "/static/甜品.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

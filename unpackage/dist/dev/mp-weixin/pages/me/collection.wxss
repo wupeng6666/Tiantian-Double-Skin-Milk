@@ -1,0 +1,13 @@
+
+.s-head{
+		flex: 1;
+}
+.s-head-img{
+		width: 120rpx;
+		height: 120rpx;
+		border-radius: 50%;
+}
+.s-detail{
+		flex: 3;
+}
+

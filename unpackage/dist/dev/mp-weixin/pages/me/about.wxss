@@ -1,0 +1,19 @@
+
+.container.data-v-1783b6cf {
+	padding: 20px;
+}
+.title.data-v-1783b6cf {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.content.data-v-1783b6cf {
+	font-size: 18px;
+	line-height: 20px;
+	/* text-align: justify; */
+}
+text.data-v-1783b6cf{
+	text-indent: 2em;
+}
+

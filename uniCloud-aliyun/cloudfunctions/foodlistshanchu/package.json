@@ -1,0 +1,7 @@
+{
+  "name": "foodlistshanchu",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

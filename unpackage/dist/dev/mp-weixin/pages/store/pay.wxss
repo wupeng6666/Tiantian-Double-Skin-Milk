@@ -1,0 +1,30 @@
+
+page{
+	background-color: #f7f7f7;
+}
+.pay{
+	background-color: #4f535a;
+	width: 90%;
+	height: 120rpx;
+	margin: 0 auto;
+	border-radius: 60rpx;
+	
+	position: fixed;
+	bottom: 30rpx;
+	left: 5%;
+	z-index: 1000;
+}
+.go{
+	width: 200rpx; 
+	height: 90rpx;
+	line-height: 90rpx;
+	background-color: #676c73 !important;
+	color: #cecece !important;
+	text-align: center;
+	border-radius: 90rpx;
+}
+.colorWhiteBgBlue{
+	background-color: #007AFF !important;
+	color: #FFFFFF !important;
+}
+

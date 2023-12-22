@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "商家入驻",
+  "usingComponents": {
+    "u-cell-group": "/node-modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-field": "/node-modules/uview-ui/components/u-field/u-field",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast"
+  }
+}

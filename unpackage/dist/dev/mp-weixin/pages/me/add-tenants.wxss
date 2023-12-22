@@ -1,0 +1,23 @@
+
+.submit{
+	background-color: #f7f7f7;
+	color: #a5a5a5;
+	width: 90%;
+	height: 100rpx;
+	margin: 0 auto;
+	border-radius: 60rpx;
+	
+	position: fixed;
+	bottom: 30rpx;
+	left: 5%;
+	z-index: 1000;
+	
+	text-align: center;
+	line-height: 100rpx;
+	font-size: 32rpx;
+}
+image{
+	width: 500rpx;
+	height: 500rpx;
+}
+

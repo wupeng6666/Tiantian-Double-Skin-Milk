@@ -1,0 +1,19 @@
+
+.developer-container.data-v-43c25a61 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+.developer-name.data-v-43c25a61 {
+	margin-top: 20px;
+	font-weight: bold;
+}
+.developer-info.data-v-43c25a61 {
+	margin-top: 10px;
+}
+.developer-email.data-v-43c25a61,
+.developer-phone.data-v-43c25a61 {
+	color: #007bff;
+}
+
